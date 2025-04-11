@@ -1,0 +1,42 @@
+[
+    {
+        "pre_pruning_results": {
+            "accuracy_removed": 67.0,
+            "overall_accuracy": 72.66666666666667
+        },
+        "post_pruning_results": {
+            "accuracy_removed": 2.0,
+            "overall_accuracy": 37.525252525252526
+        },
+        "fine_tuning_results": {
+            "accuracy_removed": 0.0,
+            "overall_accuracy": 64.67676767676768
+        },
+        "setting": {
+            "prune_type": "big",
+            "L1": 0.1,
+            "Sparsity": 0.03,
+            "Model": "resnet56"
+        }
+    },
+    {
+        "pre_pruning_results": {
+            "accuracy_removed": 67.0,
+            "overall_accuracy": 72.66666666666667
+        },
+        "post_pruning_results": {
+            "accuracy_removed": 0.0,
+            "overall_accuracy": 1.0101010101010102
+        },
+        "fine_tuning_results": {
+            "accuracy_removed": 0.0,
+            "overall_accuracy": 59.26262626262626
+        },
+        "setting": {
+            "prune_type": "small",
+            "L1": 0.1,
+            "Sparsity": 0.03,
+            "Model": "resnet56"
+        }
+    }
+]
